@@ -1,0 +1,14 @@
+body{
+    background-color: #dde0e0;
+}
+
+
+.topimages:hover {transition: transform 0.3s ease-in-out;       /* For top 2 images in a row */
+    transform: scale(1.2);
+}
+
+
+.btn:hover {background-color: rgb(43, 225, 43);}        /* For nav bar buttons */
+
+
+.bottom:hover {background-color: white; color: gray;}      /* for the contact button at the bootom of the page */

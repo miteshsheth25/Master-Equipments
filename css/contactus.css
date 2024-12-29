@@ -1,0 +1,58 @@
+body{
+    background-color: #dde0e0;
+}
+
+
+.topimages:hover {transition: transform 0.3s ease-in-out;       /* For top 2 images in a row */
+    transform: scale(1.2);
+}
+
+
+.bgimage { display: flex;
+    height: 450px;
+    background-repeat: no-repeat;
+}
+
+
+.btn:hover {background-color: rgb(43, 225, 43);}        /* For nav bar buttons */
+
+
+.cards:hover {transform: scale(1.05);}      /* For whole 3 cards in a row */
+
+.div1{  /* For Outter card */
+    margin: 40px;
+    width: auto;
+    height: auto;
+    /* border: 3px solid rgb(3, 3, 26); */
+    box-shadow: 0px 0px 15px 3px rgb(142, 142, 147) inset;
+}
+
+.div2{  /* For Form card */
+    
+    width: auto;
+    height: auto;
+    /* border: 3px solid rgb(3, 3, 26); */
+    box-shadow: 0px 0px 15px 18px rgb(209,146,117) inset;
+}
+    /* Here's what each value means:
+
+        0px 0px 15px 10px rgb(209,146,117)
+    
+        0: the horizontal offset of the shadow
+        0: the vertical offset of the shadow
+        15px: the blur effect of the shadow
+        10px: the spread effect of the shadow 
+    */
+
+               
+.logo{  /* For Form card */
+    
+    width: auto;
+    height: auto;
+    /* border: 3px solid rgb(3, 3, 26); */
+    box-shadow: 0px 0px 10px 5px  #a7ad77 inset;
+}
+
+
+
+.bottom:hover {background-color: white; color: gray;}      /* for the contact button at the bootom of the page */

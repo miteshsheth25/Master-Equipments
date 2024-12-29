@@ -1,0 +1,50 @@
+
+body{
+    background-color: #dde0e0;
+}
+
+
+.topimages:hover {transition: transform 0.3s ease-in-out;       /* For top 2 images in a row */
+    transform: scale(1.2);
+}
+
+
+.btn:hover {background-color: rgb(43, 225, 43);}        /* For nav bar buttons */
+
+
+.cards:hover {transform: scale(1.05);}      /* For whole 3 cards in a row */
+
+
+.holder:hover{ animation: zoom-in-zoom-out 3s ease infinite;}   /*  Icons for 3 cards in a row */
+
+@keyframes zoom-in-zoom-out {       /* Icons for 3 cards in a row */
+0% { scale: 100%; }
+
+50% { scale: 150%; }
+
+100% { scale: 100%; }
+
+}
+
+
+.outline{box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);}        /* for summary and video section */
+
+
+
+.card img:hover  {transform: scale(1.1);}       /* For images of products */
+
+
+.moving_image-container { width: 1200px;        /* For continue moving logos */
+    height: 210px;
+    
+}
+
+
+.marquee-container{animation: marquee 20s linear infinite ;}         /* For continue moving logos */
+
+@keyframes marquee { 0% { transform: translateX(100%); }         /* For continue moving logos */
+   100% { transform: translateX(-100%);}
+   }
+
+
+.bottom:hover {background-color: white; color: gray;}      /* for the contact button at the bootom of the page */
