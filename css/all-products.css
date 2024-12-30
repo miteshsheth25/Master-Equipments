@@ -18,7 +18,7 @@ body{
 /* For top background images */
 .panoramic {
     width: auto;
-    height: 300px;
+    height: 200px;
 /*     background: url("/images/Swings/swings-bg.png") */
     background-size: auto 100%;
     border-radius: 20%;
