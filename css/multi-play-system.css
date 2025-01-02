@@ -11,14 +11,10 @@ body{
 .btn:hover {background-color: rgb(43, 225, 43);}        /* For nav bar buttons */
 
 
+.btn:focus-visible{background: rgb(43, 225, 43);}       /* for buttons if using tab button */
+
+
 .cards:hover {transform: scale(1.05);}      /* For whole 3 cards in a row */
-
-
-
-
-
-
-
 
 
 .bottom:hover {background-color: white; color: gray;}      /* for the contact button at the bootom of the page */

@@ -16,6 +16,9 @@ body{
 .btn:hover {background-color: rgb(43, 225, 43);}        /* For nav bar buttons */
 
 
+.btn:focus-visible{background: rgb(43, 225, 43);}       /* for buttons if using tab button */
+
+
 .bottom:hover {background-color: white; color: gray;}      /* for the contact button at the bootom of the page */
 
 

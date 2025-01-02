@@ -14,7 +14,9 @@ body{
 
 /* For nav bar buttons section start */
 
-.btn:hover {background-color: rgb(43, 225, 43);}        
+.btn:hover {background-color: rgb(43, 225, 43);}
+
+.btn:focus-visible{background: rgb(43, 225, 43);}       /* for buttons if using tab button */
 
 /* For nav bar buttons section end */
 
@@ -32,7 +34,7 @@ body{
 
 
 
-/* disable the ink in quick link start */
+/* disable the link in quick link start */
 
 a.disabled {
     /* Make the disabled links grayish*/

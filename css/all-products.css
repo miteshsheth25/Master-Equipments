@@ -25,17 +25,22 @@ body{
    
 }
 
-/* .panoramic:hover, */
+
+
+.panoramic:hover,
 .panoramic:focus { 
 animation-play-state: running;
 } 
 
-@keyframes panoramic {
+@keyframes panoramic  {
     to { background-position: 100%; }
 }
 
 
 .btn:hover {background-color: rgb(43, 225, 43);}        /* For nav bar products drop-down buttons */
+
+
+.btn:focus-visible{background: rgb(43, 225, 43);}       /* for buttons if using tab button */
 
 
 .div1{  /* For rows in container card */
